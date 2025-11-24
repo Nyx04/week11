@@ -7,9 +7,9 @@ name: tfsec
 
 on:
   push:
-    branches: [ "prod", "dev", "staging" ]
+    branches: [ prod, dev, staging ]
   pull_request:
-    branches: [ "prod", "dev", "staging" ]
+    branches: [ prod, dev, staging ]
   schedule:
     - cron: '27 10 * * 4'
 
